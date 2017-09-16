@@ -1,0 +1,12 @@
+Table: round
+fields: roundID, roundName
+
+Table: student
+fields: studentID, studentName, age, roundID
+
+1. Create user and give privileges
+2. Make two tables and use sequence by 10 and start from 10 in round table
+3. Insert, update and delete data after creating trigger for each insert, update and delete.
+4. Create a view of student table and create a synonym of view table. 
+5. Create a procedure for prime number.
+6. Create a trigger on student table and display old age and new age when you will update age field. 
