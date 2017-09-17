@@ -1,0 +1,12 @@
+*******************************************************
+**Reporting Aggregated Data Using the Group Functions**
+*******************************************************
+
+Group Function:
+	The functions operate on sets of rows to give one result per group are called group functions. These sets may  comprise the entire table or the table split into groups.
+	
+Guidelines for using group functions:
+	1. DISTINCT makes the function consider only nonduplicate values; ALL makes it consider every value, including duplicates. The default is ALL and therefore does not need to be specified. 
+	2. The data types for the functions with an expr argument may be CHAR, VARCHAR2, NUMBER or DATE.
+	3. All group functions ignore null values. To substitute a value for null values, use the NVL, NVL2 or COALESCE functions. 
+	
